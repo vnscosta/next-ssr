@@ -1,0 +1,26 @@
+{
+  "name": "next-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.2.2",
+    "next-fonts": "^1.0.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.0.1",
+    "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1"
+  }
+}
