@@ -4,6 +4,7 @@ import { GlobalStyle } from '../styles';
 
 import Container from '../components/Container';
 import Header from '../components/Header';
+import '../styles/scss/test.scss';
 
 const Home = ({ repositories }) => (
   <div>
@@ -12,7 +13,7 @@ const Home = ({ repositories }) => (
     <Container>
       { repositories.map(repo => (
         <div key={repo.id}>
-          <a href={repo.html_url}>
+          <a href={repo.html_url} className="example">
             <h1>{repo.name}</h1>
           </a>
         </div>
