@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import Container from '../Container';
+import css from '../../styles/scss/Header.scss';
 
 const Header = () => (
-  <div>
+  <div className={css.header}>
     <nav>
       <Container>
         <ul>
@@ -12,22 +13,11 @@ const Header = () => (
       </Container>
     </nav>
     <style jsx>{`
-      nav{
-        background: #512b58;
-      }
       ul{
-        margin: 0;
-        padding: 0;
-        display: flex;
-        list-style: none;
+        
       }
       li {
-        padding: 20px 10px;
-      }
-      a {
-        text-decoration: none;
-        color: #FFFFFF;
-        font-family: 'Raleway';
+        
       }
     `}</style>
   </div>
