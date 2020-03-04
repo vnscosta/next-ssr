@@ -12,14 +12,6 @@ const Header = () => (
         </ul>
       </Container>
     </nav>
-    <style jsx>{`
-      ul{
-        
-      }
-      li {
-        
-      }
-    `}</style>
   </div>
 )
 
